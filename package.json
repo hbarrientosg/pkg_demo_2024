@@ -1,0 +1,17 @@
+{
+  "name": "package-demo",
+  "version": "1.0.0",
+  "description": "A demo package with TypeScript",
+  "keywords": ["demo", "typescript"],
+  "homepage": "https://github.com/hbarrientosg/pkg_demo_2024",
+  "bugs": {
+    "url": "https://github.com/hbarrientosg/pkg_demo_2024/issues"
+  },
+  "author": "Humberto Barrientos <hawksmoor@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hbarrientosg/pkg_demo_2024.git"
+  },
+  "files": ["dist"],
+  "type": "module"
+}
