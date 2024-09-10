@@ -16,20 +16,13 @@
     "noImplicitOverride": true,
 
     /* If transpiling with TypeScript: */
-    "module": "NodeNext",
-    "outDir": "dist",
-    "rootDir": "src",
-    "sourceMap": true,
+    "module": "Preserve",
 
-    /* AND if you're building for a library: */
-    "declaration": true,
-
-    /* AND if you're building for a library in a monorepo: */
-    "declarationMap": true,
     /*
      * Tells TypeScript what built-in types to include. es2022 is the best option for stability.
      * dom and dom.iterable give you types for window, document etcs
      */
-    "lib": ["es2020"]
+    "lib": ["es2020"],
+    "noEmit": true
   }
 }
