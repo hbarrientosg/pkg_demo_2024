@@ -2,7 +2,10 @@
   "name": "package-demo",
   "version": "1.0.0",
   "description": "A demo package with TypeScript",
-  "keywords": ["demo", "typescript"],
+  "keywords": [
+    "demo",
+    "typescript"
+  ],
   "homepage": "https://github.com/hbarrientosg/pkg_demo_2024",
   "bugs": {
     "url": "https://github.com/hbarrientosg/pkg_demo_2024/issues"
@@ -12,7 +15,12 @@
     "type": "git",
     "url": "git+https://github.com/hbarrientosg/pkg_demo_2024.git"
   },
-  "files": ["dist"],
+  "files": [
+    "dist"
+  ],
   "type": "module",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.6.2"
+  }
 }
