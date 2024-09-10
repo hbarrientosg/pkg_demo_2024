@@ -30,6 +30,6 @@
      * Tells TypeScript what built-in types to include. es2022 is the best option for stability. 
      * dom and dom.iterable give you types for window, document etcs 
     */
-    "lib": ["dom", "es2020"]
+    "lib": ["es2020"]
   }
 }
