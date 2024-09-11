@@ -1,5 +1,5 @@
 {
-  "name": "package-demo",
+  "name": "@hbarrientosg/package-demo",
   "version": "1.0.0",
   "description": "A demo package with TypeScript",
   "keywords": [
@@ -27,9 +27,14 @@
       "default": "./dist/index.cjs"
     }
   },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com",
+    "access": "restricted"
+  },
   "license": "MIT",
   "devDependencies": {
     "@arethetypeswrong/cli": "^0.16.2",
+    "@changesets/cli": "^2.27.8",
     "prettier": "^3.3.3",
     "tsup": "^8.2.4",
     "typescript": "^5.6.2",
@@ -43,6 +48,8 @@
     "lint:format": "prettier --check .",
     "lint:exports": "attw --pack . --ignore-rules=cjs-resolves-to-esm",
     "test": "vitest run",
-    "ci:build": "pnpm build && pnpm lint:format && pnpm lint:exports && pnpm lint:tsc && pnpm test"
+    "ci:build": "pnpm build && pnpm lint:format && pnpm lint:exports && pnpm lint:tsc && pnpm test",
+    "release:local": "changeset version && changeset publish",
+    "prepublishOnly": "pnpm ci:build"
   }
 }
