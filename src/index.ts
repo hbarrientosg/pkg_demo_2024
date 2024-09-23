@@ -1,1 +1,1 @@
-export { add, rest } from './utils';
+export { add, subs } from './utils';
