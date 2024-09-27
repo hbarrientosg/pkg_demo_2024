@@ -50,6 +50,7 @@
     "test": "vitest run",
     "ci:build": "pnpm build && pnpm lint:format && pnpm lint:exports && pnpm lint:tsc && pnpm test",
     "release:local": "changeset version && changeset publish",
+    "ci:publish": "changeset publish",
     "prepublishOnly": "pnpm ci:build"
   }
 }
