@@ -1,5 +1,11 @@
 # @hbarrientosg/package-demo
 
+## 1.0.4
+
+### Patch Changes
+
+- 6860b80: My Division
+
 ## 1.0.3
 
 ### Patch Changes
