@@ -1,5 +1,11 @@
 # @hbarrientosg/package-demo
 
+## 1.0.3
+
+### Patch Changes
+
+- 571f6a1: Other Release about other thing
+
 ## 1.0.2
 
 ### Patch Changes
